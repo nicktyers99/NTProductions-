@@ -48,6 +48,14 @@ Any static host works. Easiest options:
 - **GitHub Pages**: push this repo, enable Pages on the `main` branch in repo settings.
 - **Netlify / Vercel**: drag-and-drop the folder, or connect the repo — no build command needed.
 
+### Custom domain
+
+Live at **ntproductions.com.au**, registered through VentraIP. The `CNAME` file at the repo root tells GitHub Pages which domain to serve. DNS at VentraIP points here via:
+- 4 `A` records on the root domain to GitHub Pages' IPs (185.199.108.153, .109.153, .110.153, .111.153)
+- A `CNAME` record on `www` to `nicktyers99.github.io`
+
+If the domain or registrar ever changes, update the `CNAME` file and the DNS records together.
+
 ## Credits
 
 Content and photography sourced from the NT Productions service brochure.
