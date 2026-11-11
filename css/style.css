@@ -501,6 +501,16 @@ body.menu-open { overflow: hidden; }
   margin: 0 0 16px;
 }
 .price-card .price.big { font-size: 3.4rem; text-align: center; }
+.price-lead {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
 .price-card ul { text-align: left; }
 .price-card ul li {
   padding: 7px 0;
